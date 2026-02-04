@@ -7,6 +7,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+
+    <nav class="fixed w-full bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-gray-900 dark:text-white">Sigit</a>
+        <div class="space-x-6">
+            <a href="#proyek" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Proyek</a>
+            <a href="#tim" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Tim</a>
+            <a href="#kontak" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Kontak</a>
+        </div>
+        </div>
+    </nav>
+
+
     <section
       class="flex flex-col justify-center relative py-24 px-6 bg-gradient-to-br from-slate-100 to-slate-200 dark:from-gray-900 dark:to-gray-800 overflow-hidden min-h-screen"
     >
@@ -198,7 +211,7 @@
         </div>
       </div>
     </section>
-    <section class="py-12 sm:py-16 bg-white dark:bg-gray-900">
+    <section id="tim" class="py-12 sm:py-16 bg-white dark:bg-gray-900">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2
@@ -276,7 +289,7 @@
       </div>
     </section>
     <footer
-      class="py-8 px-6 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+      id="kontak" class="py-8 px-6 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
     >
       <div
         class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"
